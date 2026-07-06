@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial Calculator</title>
+
+    <script>
+        function factorial() {
+
+            var n = prompt("Enter a number:");
+
+            var fact = 1;
+
+            for (var i = 1; i <= n; i++) {
+                fact = fact * i;
+            }
+
+            alert("Factorial of " + n + " is " + fact);
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Factorial Calculator</h2>
+
+    <button onclick="factorial()">Find Factorial</button>
+
+</body>
+</html>
