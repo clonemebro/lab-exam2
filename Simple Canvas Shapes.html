@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Shapes</title>
+</head>
+<body>
+
+    <h2>Rectangle and Circle using HTML5 Canvas</h2>
+
+    <canvas id="myCanvas" width="400" height="250" style="border:1px solid black;">
+    </canvas>
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        // Draw Rectangle
+        ctx.strokeRect(30, 30, 120, 80);
+
+        // Draw Circle
+        ctx.beginPath();
+        ctx.arc(250, 70, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+
+</body>
+</html>
