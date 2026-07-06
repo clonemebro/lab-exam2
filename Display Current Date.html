@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Current Date</title>
+
+    <script>
+        function displayDate() {
+
+            alert("Displaying Current Date");
+
+            var today = new Date();
+
+            document.getElementById("date").value = today;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Display Current Date</h2>
+
+    <input type="text" id="date" size="40" readonly>
+
+    <br><br>
+
+    <button onclick="displayDate()">Display Date</button>
+
+</body>
+</html>
