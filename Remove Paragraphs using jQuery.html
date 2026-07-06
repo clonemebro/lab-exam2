@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remove Paragraphs</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("button").click(function(){
+                $("p").remove();
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <h2>Student Information</h2>
+
+    <p>Name: Rahul</p>
+    <p>Course: MCA</p>
+    <p>College: ABC College</p>
+
+    <button>Remove all p elements</button>
+
+</body>
+</html>
